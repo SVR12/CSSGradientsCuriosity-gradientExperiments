@@ -3,143 +3,187 @@
     background-image: linear-gradient( red, yellow );
     /* background-image: linear-gradient( to bottom, red, yellow ); */
     /* background-image: linear-gradient( to top, yellow, red ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-horizontally {
     background-image: linear-gradient( to left, red, yellow );
     /* background-image: linear-gradient( to right, #yellow, red ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally {
     background-image: linear-gradient( to bottom right, red, yellow );
     /* background-image: linear-gradient( to top left, yellow, red ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-angle {
     background-image: linear-gradient( 30deg, red, yellow );
     /* background-image: linear-gradient( -150deg, yellow, red ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-multi {
     background-image: linear-gradient( violet, indigo, blue, green, yellow, orange, red );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-rgba {
     background-image: linear-gradient( to right, rgba(255, 0, 0, 1), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.6) );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-repeat {
     background-image: repeating-linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(0, 255, 0, 1) 10%, rgba(0, 0, 255, 0.8) 30% );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial {
     background-image: radial-gradient( rgba(255, 0, 0, 0.9), rgba(0, 255, 0, 1), rgba(0, 0, 255, 0.8) );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-circle {
     background-image: radial-gradient( circle, rgba(255, 0, 0, 0.9), rgba(0, 255, 0, 1), rgba(0, 0, 255, 0.8) );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-closest-side {
     background-image: radial-gradient( closest-side at 30% 30%, rgba(255, 0, 0, 0.9), rgba(0, 255, 0, 1), rgba(0, 0, 255, 0.8) );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-farthest-side {
     background-image: radial-gradient( farthest-side at 10% 10%, rgba(255, 0, 0, 0.9), rgba(0, 255, 0, 1), rgba(0, 0, 255, 0.8) );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-closest-corner {
     background-image: radial-gradient( closest-corner at 65% 35%, #f00, #0f0, #00f );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-farthest-corner {
     background-image: radial-gradient( farthest-corner at 45% 15%, #f00, #0f0, #00f );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-radial-repeat {
     background-image: repeating-radial-gradient( #f00, #0f0 10%, #00f 20% );
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-one {
     background-image: linear-gradient( to bottom left, #f42e78, #c17afc );
     /* background-image: linear-gradient( to top right, #c17afc, #f42e78 ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-two {
     background-image: linear-gradient( to bottom left, #fec180, #ff8993 );
     /* background-image: linear-gradient( to top right, #ff8993, #fec180 ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-three {
     background-image: linear-gradient( to bottom left, #6681ea, #7e43aa );
     /* background-image: linear-gradient( to top right, #7e43aa, #6681ea ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-four {
     background-image: linear-gradient( to bottom left, #efbad3, #a254f2 );
     /* background-image: linear-gradient( to top right, #a254f2, #efbad3 ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-five {
     background-image: linear-gradient( to bottom left, #f3dcfb, #679fe4 );
     /* background-image: linear-gradient( to top right, #679fe4, #f3dcfb ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-six {
     background-image: linear-gradient( to bottom left, #d0ffae, #34ebe9 );
     /* background-image: linear-gradient( to top right, #34ebe9, #d0ffae ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-seven {
     background-image: linear-gradient( to bottom left, #ff839d, #f50b9a );
     /* background-image: linear-gradient( to top right, #f50b9a, #ff839d ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #gradient-diagonally-sample-eight {
     background-image: linear-gradient( to bottom left, #6acbe0, #6859ea );
     /* background-image: linear-gradient( to top right, #6859ea, #6acbe0 ); */
-    width: 240px;
-    height: 120px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
